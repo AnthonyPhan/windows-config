@@ -5,16 +5,10 @@
     ```
 2. Run install.ps1 to install all system apps
     ```
-    choco install git -y
-    choco install vscode -y
-    choco install notion -y
-    choco install visualstudio2017community -y
-    choco install adobereader -y
-    choco install googlechrome -y
-    choco install microsoft-teams -y
-    choco install drawio -y
-    choco install notepadplusplus -y
-    choco install office365business -y
-    choco install nvm -y
-    
+    install.ps1    
     ```
+3. Set up your SSH keys and add them to github (optional)
+    ```
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ```
+
