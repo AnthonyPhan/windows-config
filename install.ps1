@@ -8,3 +8,4 @@ choco install microsoft-teams -y
 choco install drawio -y
 choco install notepadplusplus -y
 choco install office365business -y
+git config --global user.name "anthony"
