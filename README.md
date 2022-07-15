@@ -8,7 +8,14 @@
     install.ps1    
     ```
 3. Set up your SSH keys and add them to github (optional)
-    ```
+    ```powershell
     ssh-keygen -t ed25519 -C "your_email@example.com"
+    ```
+
+    ```powershell
+    "Host github.com
+      HostName github.com
+      User anthonyphanco-user
+      IdentityFile ~/.ssh/id_anthony" >> ~/.ssh/config
     ```
 
