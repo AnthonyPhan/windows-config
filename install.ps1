@@ -8,4 +8,5 @@ choco install microsoft-teams -y
 choco install drawio -y
 choco install notepadplusplus -y
 choco install office365business -y
+choco install fnm
 git config --global user.name "anthony"
