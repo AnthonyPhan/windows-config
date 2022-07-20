@@ -20,7 +20,6 @@
     ```powershell
     "Host github.com
       HostName github.com
-      User anthonyphanco-user
       IdentityFile ~/.ssh/id_anthony" >> ~/.ssh/config
     ```
 
