@@ -13,5 +13,5 @@ set-executionpolicy remotesigned
 New-Item -ItemType File -Force -Path $Profile
 "fnm env --use-on-cd | Out-String | Invoke-Expression" >> $Profile
 git config --global user.name "anthony"
-ssh-keygen -t ed25519 -C "your_email@example.com" -f "C:\Users\anthony/.ssh/id_anthony" -q -N '""'
+ssh-keygen -t ed25519 -C "anthony-windows" -f "C:\Users\anthony/.ssh/id_anthony" -q -N '""'
 cp config ~/.ssh/config
