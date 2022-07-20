@@ -14,7 +14,7 @@
     ```
 3. Set up your SSH keys and add them to github (optional)
     ```powershell
-    ssh-keygen -t ed25519 -C "your_email@example.com" -f "C:\Users\anthony/.ssh/id_anthony)"
+    ssh-keygen -t ed25519 -C "your_email@example.com" -f "C:\Users\anthony/.ssh/id_anthony"
     ```
 
     ```powershell
