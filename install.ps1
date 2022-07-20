@@ -2,6 +2,7 @@ choco install git -y
 choco install vscode -y
 choco install notion -y
 choco install visualstudio2017community -y
+choco install visualstudio2019-workload-azure -y
 choco install adobereader -y
 choco install googlechrome -y
 choco install microsoft-teams -y
