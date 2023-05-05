@@ -3,7 +3,7 @@ choco install vscode -y
 choco install notion -y
 choco install visualstudio2019community -y
 choco install visualstudio2019-workload-netweb -y
-choco install visualstudio2019-workload-azure -y
+choco install visualstudio2019-workload-azure --package-parameters="--includeRecommended --includeOptional" -y
 choco install adobereader -y
 choco install googlechrome -y
 choco install microsoft-teams -y
