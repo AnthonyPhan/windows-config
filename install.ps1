@@ -12,6 +12,7 @@ choco install notepadplusplus -y
 choco install office365business -y
 choco install fnm -y
 choco install plexmediaserver -y
+choco install powerbi -y
 set-executionpolicy remotesigned
 New-Item -ItemType File -Force -Path $Profile
 "fnm env --use-on-cd | Out-String | Invoke-Expression" >> $Profile
