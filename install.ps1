@@ -1,6 +1,7 @@
 choco install git -y
 choco install vscode -y
 choco install notion -y
+choco install azure-functions-core-tools -y
 choco install visualstudio2019community -y
 choco install visualstudio2019-workload-netweb -y
 choco install visualstudio2019-workload-azure --package-parameters="--includeRecommended --includeOptional" -y
