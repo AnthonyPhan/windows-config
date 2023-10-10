@@ -6,6 +6,8 @@
 2. Install git and then clone this repo
     ```
     choco install git -y
+    mkdir -p repos
+    cd repos
     git clone https://github.com/AnthonyPhan/windows-config.git
     ```
 2. Run install.ps1 as `admin` to install all system apps
